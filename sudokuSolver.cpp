@@ -75,10 +75,11 @@ int32_t main()
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
-    
+         cout<<"Enter The size of Sudoku \n";
 	int a[10][10];
 	int n;
 	cin>>n;
+	cout<<"Enter Elements in matrix from and '0' for blank Spaces\n";
 	for(int i=0;i<n;i++)
 	    for(int j=0;j<n;j++)
 		   {
